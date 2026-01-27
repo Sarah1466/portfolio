@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Sarah Laget</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">
+        <span>SL</span>
+      </div>
+      <nav class="nav">
+        <a href="#a-propos">A propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Sarah Laget</h1>
+          <p class="hero-subtitle">étudiante en MMI</p>
+
+          <div class="hero-photo-wrapper">
+            <img src=images/portrait.JPG>
+        </div>
+      </section>
+
+      <section class="about" id="a-propos">
+        <div class="about-card">
+          <p>
+            Bienvenue sur mon portofolio. J’ai obtenu un baccalauréat général
+            avec les spécialités histoire-géopolitique et science-économique et
+            sociale avec la mention Bien. Passionnée par le design numérique et
+            le développement web, le but MMI correspond totalement à mes
+            ambitions professionnelles.
+          </p>
+        </div>
+      </section>
+
+      <section class="projects" id="projets">
+        <h2 class="section-title">Mes projets :</h2>
+
+        <div class="projects-grid">
+          <!-- Carte 1 -->
+          <article class="project-card" data-modal="modal-parfum">
+            <div class="project-card-header">
+              <h3>Affiche de parfum</h3>
+              <span>Photoshop</span>
+            </div>
+            <div class="project-card-image">
+              <img
+                src=images/Parfum-4.jpg>
+              <span class="see-more">See more</span>
+            </div>
+          </article>
+
+          <!-- Carte 2 -->
+          <article class="project-card" data-modal="modal-strategie">
+            <div class="project-card-header">
+              <h3>Montage vidéo</h3>
+              <span>Tuto curly hair</span>
+            </div>
+            <div class="project-card-image">
+              <img src=images/imagetutoboucle.jpg>
+              <span class="see-more">See more</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-modal="modal-festival">
+            <div class="project-card-header">
+              <h3>Affiche de festival</h3>
+              <span>Photoshop</span>
+            </div>
+            <div class="project-card-image">
+              <img
+                src="images/affiche.png"
+                alt="Affiche de festival"
+              />
+              <span class="see-more">See more</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-modal="modal-minichat">
+            <div class="project-card-header">
+              <h3>Mini chat</h3>
+              <span>Visual Code</span>
+            </div>
+            <div class="project-card-image">
+              <img
+                src="images/mini-chat.png"
+                alt="Mini chat PHP"
+              />
+              <span class="see-more">See more</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="modals">
+        <div class="modal" id="modal-parfum">
+          <div class="modal-dialog">
+            <button class="modal-close" aria-label="Fermer">×</button>
+            <div class="modal-content">
+              <div class="modal-text">
+                <h3>Affiche de parfum :</h3>
+                <p>
+                  Voici une de mes créations&nbsp;: il s’agit d’une affiche
+                  parfum. Ce devoir m’a permis de mettre en avant ma créativité
+                  et mon imagination. J’ai pu renforcer davantage mes
+                  compétences sur Photoshop. Je me suis inspirée de plusieurs
+                  photographies du désert du Sahara. J’ai cherché à créer une
+                  affiche de parfum originale et intemporelle.
+                </p>
+              </div>
+              <div class="modal-image">
+                <img
+                  src="images/Parfum-4.jpg"
+                  alt="Affiche de parfum détaillée"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal-strategie">
+          <div class="modal-dialog">
+            <button class="modal-close" aria-label="Fermer">×</button>
+            <div class="modal-content">
+              <div class="modal-text">
+                <h3>Montage vidéo :</h3>
+                <p>
+                  Dans le cadre d’une SAÉ, j’ai réalisé une stratégie de
+                  communication complète sur la Corsica Games Week. Ce projet
+                  m’a permis de réfléchir à la communication de l’évènement et
+                  de proposer des idées concrètes pour l’améliorer. Cette
+                  stratégie s’appuie sur une analyse des cibles et du contexte,
+                  ainsi que sur l’utilisation d’outils stratégiques. Elle a
+                  aussi été illustrée par la création d’un flyer.
+                </p>
+              </div>
+              <div class="modal-image">
+                <img
+                  src="images/imagetutoboucle.jpg"
+                  alt="Tuto curly hair pour un projet en audiovisuelle"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal-festival">
+          <div class="modal-dialog">
+            <button class="modal-close" aria-label="Fermer">×</button>
+            <div class="modal-content">
+              <div class="modal-text">
+                <h3>Affiche de festival :</h3>
+                <p>
+                  J’ai créé cette affiche sur Photoshop pour le festival annuel
+                  de la Corsica Games Week. Ce projet m’a permis de travailler
+                  la conception d’affiche évènementielle en lien avec l’univers
+                  du jeu vidéo. Le thème rétro et nostalgique met en avant des
+                  références traversant les générations et reflète l’aspect
+                  inclusif et familial de l’évènement.
+                </p>
+              </div>
+              <div class="modal-image">
+                <img
+                  src="images/affiche.png"
+                  alt="Affiche de festival créer pour la Corsica Games Week"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal-minichat">
+          <div class="modal-dialog">
+            <button class="modal-close" aria-label="Fermer">×</button>
+            <div class="modal-content">
+              <div class="modal-text">
+                <h3>Mini‑chat :</h3>
+                <p>
+                  Dans le cadre d’un devoir d’initiation au PHP, j’ai développé
+                  un mini‑chat fonctionnant localement. Le projet permet l’envoi
+                  de messages avec noms d’utilisateurs et avatars personnalisés.
+                  Ce travail a renforcé mes compétences en développement web et
+                  m’a permis de comprendre les bases du langage PHP.
+                </p>
+              </div>
+              <div class="modal-image">
+                <img
+                  src="images/mini-chat.png"
+                  alt="Interface du mini‑chat"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <section class="skills-section">
+    <h2>Mes compétences</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Gestion de projet</h3>
+        <p>
+          Planification, coordination d’équipes, respect des délais et budgets.
+          Méthodes Agile & Waterfall.
+        </p>
+        <div class="skill-level">
+          <div class="level-bar" style="--progress: 90%">
+            <span>90%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Développement web</h3>
+        <p>
+          HTML · CSS · JavaScript · WordPress · Webflow · notions React /
+          Next.js
+        </p>
+        <div class="skill-level">
+          <div class="level-bar" style="--progress: 50%">
+            <span>50%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Stratégie de communication</h3>
+        <p>
+          Positionnement de marque, storytelling, plan média, copywriting,
+          gestion de communautés.
+        </p>
+        <div class="skill-level">
+          <div class="level-bar" style="--progress: 70%">
+            <span>70%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Culture artistique</h3>
+        <p>
+          Veille créative, direction artistique, photographie, tendances
+          visuelles & graphiques.
+        </p>
+        <div class="skill-level">
+          <div class="level-bar" style="--progress: 40%">
+            <span>40%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Anglais</h3>
+        <p>
+          Niveau C1 — rédaction professionnelle, échanges oraux, compréhension
+          fine, présentations.
+        </p>
+        <div class="skill-level">
+          <div class="level-bar" style="--progress: 60%">
+            <span>60%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Audiovisuel</h3>
+        <p>
+          Montage (Premiere / DaVinci), captation, gestion de tournage, notions
+          de motion design.
+        </p>
+        <div class="skill-level">
+          <div class="level-bar" style="--progress: 60%">
+            <span>60%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <section class="contact" id="contact">
+        <h2 class="section-title">Me contacter</h2>
+
+        <div class="contact-card">
+          <form class="contact-form">
+            <label>
+              Nom
+              <input type="text" name="nom" />
+            </label>
+
+            <label>
+              Adresse mail
+              <input type="email" name="email" />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5"></textarea>
+            </label>
+
+            <button type="submit">Envoyez</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-left"></div>
+
+      <div class="footer-center">2025 - Tous droits réservés – Sarah Laget</div>
+
+      <div class="footer-socials">
+        <span>06 24 75 11 93</span>
+        <span>@sarahlagt</span>
+      </div>
+    </footer>
+
+    <script>
+      const cards = document.querySelectorAll(".project-card");
+      const modals = document.querySelectorAll(".modal");
+      const closes = document.querySelectorAll(".modal-close");
+
+      cards.forEach((card) => {
+        card.addEventListener("click", () => {
+          const id = card.getAttribute("data-modal");
+          const modal = document.getElementById(id);
+          if (modal) {
+            modal.classList.add("open");
+          }
+        });
+      });
+
+      closes.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          btn.closest(".modal").classList.remove("open");
+        });
+      });
+
+      modals.forEach((modal) => {
+        modal.addEventListener("click", (e) => {
+          if (e.target === modal) {
+            modal.classList.remove("open");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
